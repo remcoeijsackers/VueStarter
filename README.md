@@ -4,6 +4,8 @@ A Quick and easy starting template for a vue blog or portfolio on firebase.
 
 [Live Example](https://remcoeijsackers.com)
 
+[blog post](https://remcoeijsackers.com/post/10)
+
 
 ## Made with
 
