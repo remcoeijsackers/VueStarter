@@ -7,7 +7,7 @@
     <a href="https://remcoeijsackers.com">Live demo</a>
       ·
     <a href="https://remcoeijsackers.com/post/10">Blog post</a>
-      .
+      ·
     <a href="#gettingstarted">Getting Started</a>
     </br>
   
