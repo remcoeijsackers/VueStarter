@@ -140,16 +140,6 @@ export function getNewsItems(): Array<Post> {
     return x
 }
 
-export function getMediaItems(): Array<Post> {
-  const x: Array<Post> = []
-  posts.forEach( (post) => {
-      if(post.type === "media"){
-          x.push(post)
-      }
-  });
-  return x
-}
-
 export function getResourceItems(): Array<Post> {
   const x: Array<Post> = []
   posts.forEach( (post) => {

@@ -1,11 +1,18 @@
-# VueStarter
+<h3 align="center">VueStarter</h3>
 
-A Quick and easy starting template for a vue blog or portfolio on firebase.
-
-[Live Example](https://remcoeijsackers.com)
-
-[blog post](https://remcoeijsackers.com/post/10)
-
+  <p align="center">
+    A Quick and easy starting template for a vue blog or portfolio on firebase.
+    <br />
+    <br />
+    <a href="https://remcoeijsackers.com">Live demo</a>
+      ·
+    <a href="https://remcoeijsackers.com/post/10">Blog post</a>
+      .
+    <a href="#gettingstarted">Getting Started</a>
+    </br>
+  
+  </p>
+</div>
 
 ## Made with
 
@@ -28,14 +35,16 @@ Cards                       |  Nested views          |
 ![](public/images/news.jpg)   |  ![](public/images/projects.jpg)
 
 
-### Dark mode build in
+### Dark mode
 
 Nested view - dark         |  About - dark             |
 :-------------------------:|:-------------------------:|
 ![](public/images/projects-dark.jpg)   |  ![](public/images/about-dark.jpg)
 
-
 ## Getting Started
+<div id="gettingstarted"></div>
+
+### Implement Firebase
 
 1. Install firebase-tools
 
@@ -53,13 +62,21 @@ npm i firebase-tools
 firebase init 
 ```
 
+### Development
+
 4. Install the dependencies
 
 ```sh
-npm install
+npm install .
 ```
 
-## Deploying
+5. Start the app
+
+```sh
+npm run dev
+```
+
+### Deploying
 
 1. Build the project
 
@@ -73,7 +90,7 @@ npm run build
 firebase deploy
 ```
 
-To take the project offline run
+To take the site off line, run
 
 ```sh
 firebase hosting:disable
